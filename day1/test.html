@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Define styles for the container */
+    .image-container {
+      width: 200px;
+      height: 200px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Define styles for the image */
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      transition: transform 1s;
+    }
+
+    /* Define CSS animation for rotation on hover */
+    @keyframes rotate {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    /* Apply the animation on hover */
+    .image-container:hover img {
+      animation: rotate infinite 1s linear; /* Rotate the image on hover */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Create a container div -->
+  <div class="image-container">
+
+    <!-- Place an image inside the container -->
+    <img src="your-image-url.jpg" alt="Rotating Image">
+
+  </div>
+
+</body>
+</html>
