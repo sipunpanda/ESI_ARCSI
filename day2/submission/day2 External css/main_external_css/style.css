@@ -1,0 +1,74 @@
+body{
+    background-color: #FFFACD;
+    
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    
+}
+
+#one{
+    background-color:aqua;
+    
+}
+
+#two{
+    background-color:rgb(255, 255, 255);
+    position: absolute;
+    left: 140px;
+    top: 50px;
+    z-index: 2;
+}
+
+#three{
+    background-color:#c1be92;
+    position: absolute;
+    left: 240px;
+    top: 10px;
+    z-index: 4;
+    
+}
+
+#four{
+    background-color:#d4c645;
+    position: absolute;
+    left: 8px;
+    top: 130px;
+}
+
+#five{
+    background-color:rgb(203, 74, 35);
+    position: absolute;
+    left: 108px;
+    top: 130px;
+    z-index: 4;
+
+}
+
+#six{
+    background-color:rgb(8, 0, 247);
+    position: absolute;
+    left: 208px;
+    top: 130px;
+    z-index: 1;
+}
+
+#seven{
+    background-color:rgb(193, 211, 216);
+    position: absolute;
+    left: 340px;
+    top: 400px;
+    transform: rotate(170deg);
+}
+
+#eight{
+    background-color:rgb(119, 169, 107);
+    position: absolute;
+    left: 160px;
+    top: 90px;
+    z-index: 3;
+    transform: rotate(20deg);
+}
+

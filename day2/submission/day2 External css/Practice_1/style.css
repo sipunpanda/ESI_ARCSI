@@ -1,0 +1,138 @@
+
+body{
+  background-color: moccasin;
+}
+
+
+.logo{
+text-align: center;
+font-size: 30px;
+height: 75px;
+width: 8%;
+background-color: white;
+border-radius: 1px;
+box-shadow: -0 0 15px 0px inset rgb(32, 32, 32);     
+
+}
+.header{
+color: rgb(233, 233, 233);
+
+text-align: center;
+font-size: 30px;
+height: 75px;
+width: 93%;
+border-radius: 2px;
+background-color: rgb(113, 0, 0);
+box-shadow: -0 0 15px 8px inset rgb(32, 32, 32);     
+}
+
+/* box-shadow: h-offset v-offset blur spread color; */
+
+.navbar{
+color: rgb(36, 36, 36);
+display: flex;
+/* align-items: center; */
+justify-content: space-between;
+text-align: center;
+height: 75px;
+
+}
+
+
+.hero{
+background-color:transparent;
+color: rgb(36, 36, 36);
+display: flex;
+/* align-items: center; */
+justify-content: space-between;
+text-align: center;
+height: 20%px;
+
+}
+
+
+aside{
+font-size: 30px;
+background-color: transparent;
+width: 8%;
+height: 600px;
+box-shadow: -0 0 15px 8px inset rgb(32, 32, 32);     
+
+}
+
+main{
+font-size: 26px;
+background-color: transparent;
+width: 92%;
+height: 600px;
+box-shadow: -0 0 15px 8px inset rgb(32, 32, 32);  
+
+}
+/* main div{
+display: inline-block;
+margin: 10px;
+background-color: #fff;
+height: 100px;
+width: 100px;
+} */
+
+
+.boxes {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+/* Style for each div */
+.box {
+width: 29%;
+height: 260px;
+margin: 20px;
+background-color:transparent;
+border-radius: 25px;
+
+
+box-shadow: 0 0 15px 10px rgba(2, 2, 2, 0.752);
+
+}
+.function{
+display: flex;
+align-items: center;
+justify-content: center;
+position:relative;
+color: red;
+}
+
+footer{
+font-size: 30px;
+background-color: transparent;
+text-align: center;
+width: 100%;
+height: 90px;
+box-shadow: -0 0 15px 5px inset rgb(32, 32, 32); 
+}
+
+.function:hover{
+background-color: #fff;
+box-shadow: -0 0 15px 8px inset rgb(32, 32, 32);  
+
+
+}
+.function:hover .inner-circle {
+transform: translate(-50%, -50%) scale(1); /* Scale to full size on hover */
+}
+
+.inner-circle {
+width: 250px;
+height: 75px;
+background-color:transparent;
+color: red;
+border:5px solid red;
+text-align: center;
+line-height: 80px;
+border-radius: 50%; /* Create a circular shape */
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%) scale(0); 
+}

@@ -1,0 +1,83 @@
+ /* 1st glow */
+ .glow-container {
+     width: 200px;
+     height: 200px;
+     border-radius: 13px;
+     background-color: #0651c2;
+     margin: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+     transition: box-shadow 3s ease, background-color 3s ease;
+     box-shadow: rgba(30, 31, 31, 0.46) 0px 1px 4px, rgb(45, 45, 45) 0px 0px 0px 3px;
+ }
+
+ /* 1st hover*/
+ .glow-container:hover {
+     box-shadow: 0 0 50px 20px rgba(27, 28, 29, 0.892);
+     background-color: #3f77ca;
+ }
+
+
+ /* 2nd */
+
+ .increase-container {
+     width: 200px;
+     height: 200px;
+     border-radius: 13px;
+     background-color: #0651c2;
+     margin: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+     transition: box-shadow 3s ease, width 2s ease ;
+     box-shadow: rgba(30, 31, 31, 0.46) 0px 1px 4px, rgb(45, 45, 45) 0px 0px 0px 3px;
+     /* Initial darker shadow */
+ }
+
+ /* 2nd hover*/
+ .increase-container:hover {
+     box-shadow: rgb(45, 45, 45) 0px 0px 0px 2px, 0 0 50px 20px rgba(27, 28, 29, 0.892);
+     width: 40%;
+     /* Larger area lighter glow */
+     background-color: #3f77ca;
+ }
+
+
+ /* 3rd hover */
+ .rotate-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 13px;
+    background-color: #0651c2;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+        transition: box-shadow 3s ease, background-color 3s ease,transform 3s ease;
+    box-shadow: rgba(30, 31, 31, 0.46) 0px 1px 4px, rgb(45, 45, 45) 0px 0px 0px 3px;
+    /* Initial darker shadow */
+}
+
+/* 3rd hover*/
+.rotate-container:hover {
+    box-shadow: rgb(45, 45, 45) 0px 0px 0px 2px, 0 0 50px 20px rgba(27, 28, 29, 0.892);
+
+    background-color: #3f77ca;
+    transform: rotate(180deg);
+}
+
+ 
+/* image hover */
+
+img{
+  margin-left: 20px;
+  transition: transform 4s linear;
+}
+
+img:hover{
+  transform: rotate(760deg);
+}
